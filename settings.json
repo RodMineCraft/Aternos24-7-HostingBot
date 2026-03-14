@@ -1,13 +1,13 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "imgonnacream",
+    "username": "the bot that keeps this server online... so uhh be kind to him :D",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "7L_SMP_is_real.aternos.me",
-    "port": 62213,
+    "ip": "Doombydeath.aternos.me",
+    "port": 58166,
     "version": "",
     "try-creative": false
   },
@@ -26,10 +26,10 @@
       "enabled": true,
       "sneak": true
     },
-    "chat-messages": {
-      "enabled": true,
-      "repeat": true,
-      "repeat-delay": 120,
+    "chat-messages":  {
+      "enabled": false,
+      "repeat": false,
+      "repeat-delay": 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
       "messages": [
         "I'm a regular player",
         "Subscribe to Slobos!",
@@ -49,33 +49,33 @@
   "movement": {
     "enabled": true,
     "circle-walk": {
-      "enabled": true,
+      "enabled": false,
       "radius": 4,
-      "speed": 3000
+      "speed": 9999999999999999999999999999999999999999999999999999999999999999999
     },
     "look-around": {
-      "enabled": true,
+      "enabled":false,
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 10000
     }
   },
   "modules": {
-    "avoidMobs": true,
-    "combat": true,
+    "avoidMobs": false,
+    "combat": false,
     "beds": false,
-    "chat": true,
-    "console-commands": true
+    "chat": false,
+    "console-commands": false
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
   "beds": {
     "pick-up-day": false,
-    "place-night": false
+    "place-night": true
   },
   "discord": {
     "enabled": false,
@@ -87,6 +87,6 @@
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
